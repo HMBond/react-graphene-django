@@ -5,8 +5,8 @@ This is an example of using a graphene-django backend, using the standard sqlite
 ## Requirements
 
 - Python3
-- Pip to install django and graphene-django dependencies
-- Npm or Yarn
+- Pip to install django, graphene-django and corsheaders dependencies
+- Npm or Yarn (Node.js)
 
 ## Start servers
 
