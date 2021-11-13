@@ -12,13 +12,13 @@ This is an example of using a graphene-django backend, using the standard sqlite
 
 ### Backend
 
-In the project directory, create a superuser (admin):
-
-`python manage.py createsuperuser`
-
-Then migrate:
+In the project directory, migrate:
 
 `python manage.py migrate`
+
+Then create a superuser (admin):
+
+`python manage.py createsuperuser`
 
 and run the Django server:
 
@@ -30,7 +30,7 @@ Go to `localhost:8000/graphql` for graphiql interface.
 
 ### Frontend
 
-In the _frontend_ directory, you can run the React server:
+n the _frontend_ directory, you can run the React server:
 
 ```
 cd frontend
@@ -45,3 +45,5 @@ cd frontend
 npm install
 npm run start
 ```
+
+Go to `localhost:3000` to use the app.
