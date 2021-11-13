@@ -38,7 +38,7 @@ yarn
 yarn start
 ```
 
-### or use npm:
+#### or use npm:
 
 ```
 cd frontend
