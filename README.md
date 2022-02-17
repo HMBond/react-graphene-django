@@ -4,13 +4,19 @@ This is an example of using a graphene-django backend, using the standard sqlite
 
 ## Requirements
 
-- Python3
-- Pip to install django, graphene-django and corsheaders dependencies
-- Npm or Yarn (Node.js)
+- python3 & pip3
+- npm or yarn (Node.js)
+
+Install dependencies (requirements.txt)
+`pip install -r requirements.txt`
 
 ## Start servers
 
 ### Backend
+
+Create .env file in backend/
+
+`cp backend/.env.template backend/.env`
 
 In the project directory, migrate:
 

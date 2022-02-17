@@ -24,6 +24,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
+package-lock.json
 
 # Django #
 *.log
@@ -32,6 +33,9 @@ yarn.lock
 __pycache__
 db.sqlite3
 media
+
+# Migrations
+*.cpython-310.pyc
 
 # Backup files # 
 *.bak 
