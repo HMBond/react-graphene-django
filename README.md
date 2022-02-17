@@ -4,10 +4,11 @@ This is an example of using a graphene-django backend, using the standard sqlite
 
 ## Requirements
 
-- python3 & pip3
-- npm or yarn (Node.js)
+-   python3 & pip3
+-   npm or yarn (Node.js)
 
-Install dependencies (requirements.txt)
+Install dependencies
+
 `pip install -r requirements.txt`
 
 ## Start servers
@@ -42,12 +43,9 @@ n the _frontend_ directory, you can run the React server:
 cd frontend
 yarn
 yarn start
-```
 
-#### or use npm:
+# or use npm:
 
-```
-cd frontend
 npm install
 npm run start
 ```
